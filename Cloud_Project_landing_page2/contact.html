@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="all.min.css">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+<body>
+         <!--=============HEADER=============-->
+		 <nav class="navbar navbar-expand-sm bg-dark main-nav">
+
+ 
+			<div class="container-fluid">
+		  
+			<div class="container-fluid col-md-2 col-sm-2" id="logo">
+			  <img src="Techritoma.jpg" alt="" width="100px">
+			</div>
+		  
+			
+			  <!-- Links -->
+			  <div class="col-md-8">
+			  <ul class="navbar-nav  menu-list" id="u-list">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contact</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Teams</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Policy</a>
+				</li>
+			  </ul>
+			</div>
+			 
+		  
+			 
+				<div class="dropdown dropstart text-end col-md-2" id="svg-menu">
+				  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+					Menu
+				  </button>
+				
+				  <ul class="dropdown-menu">
+					<li class="nav-item">
+					  <a class="nav-link text-dark" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-dark" href="#About">About</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-dark" href="#">Contact</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-dark" href="#">Team</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link text-dark" href="#">Privacy Policy</a>
+					</li>
+				  </ul>
+			  </div>
+		  
+		  
+			</div>
+			
+		  
+			  <div class="container-fluid col-md-2 col-sm-4" id="channels-menu">
+				<div class="dropdown">
+				  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+					Channels
+				  </button>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="Index.html">Web Design</a></li>
+					<li><a class="dropdown-item" href="App.html">App Developement</a></li>
+					<li><a class="dropdown-item" href="AI.html">AI</a></li>
+				  </ul>
+				</div>
+			  </div>
+		  
+		  </div>
+		  
+		  </nav>
+
+
+	<div class="container">
+		<form action="send-email.php" method="POST">
+			<h1>Contact Us</h1>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="Your email.." required>
+
+			<label for="subject">Subject</label>
+			<input type="text" id="subject" name="subject" placeholder="Subject.." required>
+
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+    
+	<div class="contain">
+		<div class="contact-info">
+			<div>
+				<i class="fa fa-envelope"></i>
+				<h2>Email</h2>
+				<p>ayukpaulk23@gmail.com</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<h2>Phone</h2>
+				<p>+237 650-190-332</p>
+			</div>
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<h2>Location</h2>
+				<p>Buea Cameroon</p>
+			</div>
+		</div>
+	</div>
+
+
+    
+      <!--=========================FOOTER=========================-->
+
+<footer class="container-fluid" style="background-color: rgba(31, 30, 30, 0.753); color:white; padding-top: 30px;">
+     
+    <div class="row justify-content-evenly">
+  
+       <div class="col-md-4">
+          <h3 >About Techritoma Mentorship</h3>
+          <p style="color: grey;">Techritoma Mentorship is the best place to close the struggle</p>
+       </div>
+  
+       <div  class="col-md-4">
+          <h3>Quick info</h3>
+          <div class="row">
+          <ul class="col-md-4" style="list-style: none;">
+             <li><a href="#" style="text-decoration: none; color: grey;">Home</a></li>
+             <li><a href="#" style="text-decoration: none; color: gray;">Employers</a></li>
+              <li><a href="#" style="text-decoration: none; color: grey;">Go to top</a></li>
+           </ul>
+  
+           <ul class="col-md-4" style="list-style: none;">
+              <li><a href="#" style="color: grey;">Channel List</a></li>
+              <li><a href="#" style="color: grey;">Contact Us</a></li>
+           </ul>
+           </div>
+       </div>
+        
+       <div  class="col-md-4">
+       <h3>Techritoma Mentorship Contact</h3>
+      <p style="color: grey;">Address: Molyko -Buea</p>
+      <p><a href="#" style="text-decoration: none; color: grey;">Email:techritoma@gmail.com</a></p>
+      <p style="color: grey;">Phone: +237679495102</p>
+                  
+       </div>
+    </div>
+    
+    <div class="row" id="footer-btm"style="background-color:rgb(31, 30, 30); margin-top: 20px;">
+  
+      <p class="col-md-4" style="color: gray;">&copyCopyright 2023 TECHCOSOLVED 6</p>
+      <p class="col-md-6" style="color: gray;">Developed by TECHRITOMA Inc</p>
+      <p  class="col-md-2" style="color: gray;"><i class="fa-brands fa-twitter" style="margin: 0 3px;"></i> <i class="fa-brands fa-facebook" style="margin: 0 3px;"></i> <i class="fa-brands fa-instagram" style="margin: 0 3px;"></i></p>
+    </div> 
+   
+  
+  
+     </footer>
+
+
+   <script src="all.min.js"></script>
+   <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+   <script src="contact.js"></script>
+</body>
+</html>
